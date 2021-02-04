@@ -65,6 +65,9 @@ routes:
       description: Optional time to search for a specific train.
       required: false
       type: time
+    offset:
+      description: Optional time offset in minutes from the current time to search for the next train.
+      type: positive_int
 {% endconfiguration %}
 
 ### Station codes
